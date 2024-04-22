@@ -1,0 +1,62 @@
+*
+{
+    text-align:center;
+}
+h1,h3
+{
+    text-align: center;
+}
+.bigger
+{
+    display:flex;
+    height:100vh;
+    justify-content: center;
+}
+.big{
+    height:500px;
+    width:500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    border:2px solid black; 
+    border-radius: 20px;
+} 
+.red, .blue, .green, .yellow
+{
+    width:200px;
+    height: 200px;
+    border:2px solid black;
+    border-radius:20px;
+    margin:15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+.red
+{
+    background-color: #d95980;
+}
+
+.blue
+{
+    background-color: #879ff9;
+}
+
+.green
+{
+    background-color: #63aac0;
+}
+
+.yellow
+{
+    background-color: #f99b45;
+}
+.flash
+{
+    background-color:white;
+}
+.userflash
+{
+    background-color:chartreuse;
+}
